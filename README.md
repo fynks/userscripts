@@ -1,40 +1,40 @@
 #### DuckDuckgo
 
-- Duckduckgo Cleaner | [raw]() | [src]()
+- Duckduckgo Cleaner | [raw](https://github.com/fynks/userscripts/raw/main/ddg/ddg-extender.user.js) | [src](https://github.com/fynks/userscripts/)
 
 #### Tedit
 
-- Teddit Cleaner | [raw]() | [src]()
-- Reddit to teddit | [raw]() | [src]()
+- Teddit Cleaner | [raw](https://github.com/fynks/userscripts/raw/main/teddit/teddit-cleaner.user.js) | [src](https://github.com/fynks/userscripts/)
+- Reddit to teddit | [raw](https://github.com/fynks/userscripts/raw/main/teddit/reddit-to-teddit-redictor.user.js) | [src](https://github.com/fynks/userscripts/)
 
 #### Inoreader
 
-- Inoreader Cleaner | [raw]() | [src]()
+- Inoreader Cleaner | [raw](https://github.com/fynks/userscripts/raw/main/inoreader/inoreader-cleaner.user.js) | [src](https://github.com/Hacksign/configs/blob/master/firefox/plugins/greasemonkey/inoreader.user.js)
 
 #### Github
 
-- Github Menu | [raw]() | [src]()
-- Github Theme Switcher | [raw]() | [src]()
+- Github Menu | [raw](https://github.com/fynks/userscripts/raw/main/github/github-menu.user.js) | [src](https://github.com/HaleShaw/TM-GitHubMenu)
+- Github Theme Switcher | [raw](https://github.com/fynks/userscripts/raw/main/github/github-theme-switch.user.js) | [src](https://github.com/kidonng/cherry)
 
 #### Youtube
 
-- Youtube Cleaner | [raw]() | [src]()
+- Youtube Cleaner | [raw](https://github.com/fynks/userscripts/raw/main/youtube/youtube-cleaner.user.js) | [src](https://github.com/fynks/userscripts/)
 
 #### XDA
 
-- XDA Cleaner | [raw]() | [src]()
+- XDA Cleaner | [raw](https://github.com/fynks/userscripts/raw/main/xda/xda-cleaner.user.js) | [src](https://github.com/fynks/userscripts/)
 
 #### Json Formatter
 
-- Json Formatter | [raw]() | [src]()
+- Json Formatter | [raw](https://github.com/fynks/userscripts/raw/main/json/json-formatter.user.js) | [src](https://github.com/fynks/userscripts/)
 
 #### Boxy SVG
 
-- Boxy SVG Bypass | [raw]() | [src]()
+- Boxy SVG Bypass | [raw](https://github.com/fynks/userscripts/raw/main/boxysvg/boxy-svg-bypass.user.js) | [src](https://greasyfork.org/users/718362)
 
 #### Imgur
 
-- Imgur Cleaner | [raw]() | [src]()
+- Imgur Cleaner | [raw](https://github.com/fynks/userscripts/raw/main/imgur/imgur-minimal.user.js) | [src](https://github.com/krisu5/userstyles/tree/master/Imgur%20-%20Minimal%20and%20Anti-Social%20for%20non-Imgurians)
    
 
 ---
