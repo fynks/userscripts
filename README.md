@@ -1,40 +1,40 @@
 #### DuckDuckgo
 
-- Duckduckgo Cleaner [raw]() | [src]()
+- Duckduckgo Cleaner | [raw]() | [src]()
 
 #### Tedit
 
-- Teddit Cleaner [raw]() | [src]()
-- Reddit to teddit [raw]() | [src]()
+- Teddit Cleaner | [raw]() | [src]()
+- Reddit to teddit | [raw]() | [src]()
 
 #### Inoreader
 
-- Inoreader Cleaner [raw]() | [src]()
+- Inoreader Cleaner | [raw]() | [src]()
 
 #### Github
 
-- Github Menu [raw]() | [src]()
-- Github Theme Switcher [raw]() | [src]()
+- Github Menu | [raw]() | [src]()
+- Github Theme Switcher | [raw]() | [src]()
 
 #### Youtube
 
-- Youtube Cleaner [raw]() | [src]()
+- Youtube Cleaner | [raw]() | [src]()
 
 #### XDA
 
-- XDA Cleaner [raw]() | [src]()
+- XDA Cleaner | [raw]() | [src]()
 
 #### Json Formatter
 
-- Json Formatter [raw]() | [src]()
+- Json Formatter | [raw]() | [src]()
 
 #### Boxy SVG
 
-- Boxy SVG Bypass [raw]() | [src]()
+- Boxy SVG Bypass | [raw]() | [src]()
 
 #### Imgur
 
-- Imgur Cleaner [raw]() | [src]()
+- Imgur Cleaner | [raw]() | [src]()
    
 
 ---
