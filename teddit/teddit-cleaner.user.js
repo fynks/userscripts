@@ -29,7 +29,7 @@
     var style = document.createElement('style');
     style.innerHTML = `
     body{overflow-x: hidden;}
-    header,#intro,#sr-more-link,nav,.upvotes,.content> .heading,.content> .description,#sidebar > .mod-list,footer{display:none !important}
+    header,#intro,#sr-more-link,nav,.upvotes,.content> .heading,.content> .description,#sidebar > .mod-list{display:none !important}
     #topbar{padding:0}
     .top-links{padding:1.5rem;background: #1f1f1f;margin-bottom:1rem;display:flex; flex-direction:row; flex-wrap:wrap;}
     .link{padding-left:12px}
