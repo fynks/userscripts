@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name            DDG Extendor
 // @author          Fynks
-// @version         1.2
+// @version         1.3
 // @description     Cleans and adds custom search to duckduckgo.com
 // @icon            https://raw.githubusercontent.com/tumpio/gmscripts/master/DuckDuckGo_Extended/large.png
-// @downloadURL     https://raw.githubusercontent.com/fynks/userscripts/main/ddg-extender.user.js
-// @updateURL       https://raw.githubusercontent.com/fynks/userscripts/main/ddg-extender.user.js
+// @downloadURL     https://raw.githubusercontent.com/fynks/userscripts/main/ddg/ddg-extender.user.js
+// @updateURL       https://raw.githubusercontent.com/fynks/userscripts/main/ddg/ddg-extender.user.js
 // @namespace       https://github.com/fynks/userscripts/
 // @match           https://duckduckgo.com/*
 // @grant           GM_addStyle
@@ -26,7 +26,7 @@ var ddg_e = {
 ;;Google==https://www.google.com/search?q={searchTerms}\
 ;;Github==https://github.com/search?q={searchTerms}\
 ;;Youtube==https://www.youtube.com/results?search_query={searchTerms}&aq=f\
-;;Translate==http://translate.google.com/translate_t#auto|en|{searchTerms}",
+;;AUR==https://aur.archlinux.org/packages/?O=0&K={searchTerms}",
 
     style: "\
 #duckbar_static{display:flex;flex-direction:row !important;}\
