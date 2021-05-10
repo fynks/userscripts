@@ -3,8 +3,8 @@
 // @author         Fynks
 // @version        1.2
 // @description    Adds custom menu to github
-// @downloadURL    https://raw.githubusercontent.com/fynks/userscripts/main/github-menu.user.js
-// @updateURL      https://raw.githubusercontent.com/fynks/userscripts/main/github-menu.user.js
+// @downloadURL    https://raw.githubusercontent.com/fynks/userscripts/main/github/github-menu.user.js
+// @updateURL      https://raw.githubusercontent.com/fynks/userscripts/main/github/github-menu.user.js
 // @namespace      https://github.com/fynks/userscripts/
 // @icon           https://github.githubassets.com/favicons/favicon.svg
 // @match          https://github.com/*

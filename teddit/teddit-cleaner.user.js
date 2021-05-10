@@ -4,8 +4,8 @@
 // @version        1.6
 // @description    Cleans and enhances teddit
 // @icon           https://teddit.net/favicon.png
-// @downloadURL    https://raw.githubusercontent.com/fynks/userscripts/main/teddit-cleaner.user.js
-// @updateURL      https://raw.githubusercontent.com/fynks/userscripts/main/teddit-cleaner.user.js
+// @downloadURL    https://raw.githubusercontent.com/fynks/userscripts/main/teddit/teddit-cleaner.user.js
+// @updateURL      https://raw.githubusercontent.com/fynks/userscripts/main/teddit/teddit-cleaner.user.js
 // @namespace      https://github.com/fynks/userscripts/
 // @match          https://teddit.net/*
 // @grant none

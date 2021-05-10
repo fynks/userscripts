@@ -4,8 +4,8 @@
 // @version 1.2
 // @description Cleans youtube from extra distractions
 // @icon https://www.google.com/s2/favicons?domain=www.youtube.com
-// @downloadURL https://raw.githubusercontent.com/fynks/userscripts/main/youtube-cleaner.user.js
-// @updateURL https://raw.githubusercontent.com/fynks/userscripts/main/youtube-cleaner.user.js
+// @downloadURL https://raw.githubusercontent.com/fynks/userscripts/main/youtube/youtube-cleaner.user.js
+// @updateURL https://raw.githubusercontent.com/fynks/userscripts/main/youtube/youtube-cleaner.user.js
 // @namespace https://github.com/fynks/userscripts/
 // @match https://*.youtube.com/*
 // @grant none
