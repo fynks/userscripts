@@ -8,6 +8,36 @@
 // @include http://*.inoreader.com/*
 // @namespace   https://raw.githubusercontent.com/Hacksign/configs/master/firefox/plugins/greasemonkey/inoreader.user.js
 // ==/UserScript==
+
+//This function automatically loads the full articles in Inoreader
+/*(function () {
+	//----- configure (change as desired) -----
+	const excludedSources = ['nitter.com']; //subscriptions to exclude from auto-load
+	const waitTime = 200; //time in ms to wait for page load (1 sec: 1000ms)
+	//-----------------------------------------
+
+	loadFullArticle();
+	window.onpopstate = loadFullArticle;
+
+	function loadFullArticle() {
+		if (window.location.pathname.includes('article/')) {
+			setTimeout(() => {
+				try {
+					const source = document.getElementsByClassName('boldlink')[0];
+					const button = document.getElementsByClassName('icon-button-mobilize-empty')[0];
+					if (!excludedSources.includes(source.innerHTML.trim())) {
+						button.click();
+					}
+				} catch (err) {
+					console.log('page has not loaded');
+				}
+			}, waitTime);
+		}
+	}
+})();
+*/
+
+
 var tools_div = document.getElementById('sb_rp_tools');
 if (tools_div) {
     tools_div.style.right = '90px';
@@ -170,4 +200,5 @@ document.body.addEventListener('DOMNodeInserted', function (e) {
             }
         }
     }
+
 });
