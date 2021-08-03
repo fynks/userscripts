@@ -19,6 +19,7 @@
 #### Youtube
 
 - Youtube Cleaner | [raw](https://github.com/fynks/userscripts/raw/main/youtube/youtube-cleaner.user.js) | [src](https://github.com/fynks/userscripts/) |
+- Search While watching Video | [raw](https://raw.githubusercontent.com/fynks/userscripts/main/youtube/search_while-watching_video.user.js) | [src](https://github.com/fynks/userscripts/) |
 
 #### XDA
 
