@@ -11,6 +11,10 @@
 
 - Inoreader Cleaner | [raw](https://github.com/fynks/userscripts/raw/main/inoreader/inoreader-cleaner.user.js) | [src](https://github.com/Hacksign/configs/blob/master/firefox/plugins/greasemonkey/inoreader.user.js) |
 
+#### Scribe.rip
+
+- Scribe.rip Fixer | [raw](https://raw.githubusercontent.com/fynks/userscripts/main/scribe/scribe-rip-fixer.user.js) | [src](https://github.com/fynks/userscripts/blob/main/scribe/scribe-rip-fixer.user.js) |
+
 #### Github
 
 - Github Menu | [raw](https://github.com/fynks/userscripts/raw/main/github/github-menu.user.js) | [src](https://github.com/HaleShaw/TM-GitHubMenu) |
