@@ -7,7 +7,7 @@
 // @downloadURL     https://raw.githubusercontent.com/fynks/userscripts/main/ddg/ddg-extender.user.js
 // @updateURL       https://raw.githubusercontent.com/fynks/userscripts/main/ddg/ddg-extender.user.js
 // @namespace       https://github.com/fynks/userscripts/
-// @match           https://duckduckgo.com/*
+// @match           https://*.duckduckgo.com/*
 // @grant           GM_addStyle
 // @grant           GM_getValue
 // @grant           GM_setValue
@@ -22,15 +22,18 @@ var ddg_e = {
     list: document.createElement("div"),
     engines: [],
 
-    default: "|==#\
+    default: "Images==https://www.google.com/search?q={searchTerms}&tbm=isch\
+;;|==#\
 ;;Google==https://www.google.com/search?q={searchTerms}\
 ;;Github==https://github.com/search?q={searchTerms}\
 ;;Youtube==https://www.youtube.com/results?search_query={searchTerms}&aq=f\
+;;Reddit==https://libreddit.spike.codes/search?q={searchTerms}\
 ;;AUR==https://aur.archlinux.org/packages/?O=0&K={searchTerms}",
 
     style: "\
 #duckbar_static{display:flex;flex-direction:row !important;}\
 .js-header-aside,.feedback-prompt,.feedback-btn__send,.feedback-btn,.footer,.js-zci-link--news{display:none !important}\
+svg,#duckbar_static > .zcm__item:nth-of-type(2),#duckbar_static > .zcm__item:nth-of-type(3),#duckbar_static > .zcm__item:nth-of-type(4),#duckbar_static > .zcm__item:nth-of-type(5){display:none !important}\
 ",
 
     get: function () {
