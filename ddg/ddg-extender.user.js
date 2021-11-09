@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            DDG Extendor
 // @author          Fynks
-// @version         1.3
+// @version         1.4
 // @description     Cleans and adds custom search to duckduckgo.com
 // @icon            https://raw.githubusercontent.com/tumpio/gmscripts/master/DuckDuckGo_Extended/large.png
 // @downloadURL     https://raw.githubusercontent.com/fynks/userscripts/main/ddg/ddg-extender.user.js
