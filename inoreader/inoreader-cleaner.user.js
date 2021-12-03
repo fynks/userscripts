@@ -1,18 +1,19 @@
 // ==UserScript==
-// @name Remove inoreader ADS
-// @description Remove inoreader.com's advertisement in reading list, upgrae button and some annoying dialogs.
-// @version 4.9.5
-// @grant none
-// @icon https://inoreader.com/favicon.ico
-// @include https://*.inoreader.com/*
-// @include http://*.inoreader.com/*
-// @namespace   https://raw.githubusercontent.com/Hacksign/configs/master/firefox/plugins/greasemonkey/inoreader.user.js
+// @name           Remove inoreader ADS
+// @description    Remove inoreader.com's advertisement in reading list, upgrae button and some annoying dialogs.
+// @version        4.9.5
+// @grant          none
+// @icon           https://inoreader.com/favicon.ico
+// @include        https://*.inoreader.com/*
+// @include        http://*.inoreader.com/*
+// @namespace      https://raw.githubusercontent.com/Hacksign/configs/master/firefox/plugins/greasemonkey/inoreader.user.js
 // ==/UserScript==
 
 //This function automatically loads the full articles in Inoreader
-/*(function () {
+/* jshint esversion: 6 */
+(function () {
 	//----- configure (change as desired) -----
-	const excludedSources = ['nitter.com']; //subscriptions to exclude from auto-load
+	const excludedSources = ['The Associated Press']; //subscriptions to exclude from auto-load
 	const waitTime = 200; //time in ms to wait for page load (1 sec: 1000ms)
 	//-----------------------------------------
 
@@ -35,7 +36,7 @@
 		}
 	}
 })();
-*/
+
 
 
 var tools_div = document.getElementById('sb_rp_tools');
