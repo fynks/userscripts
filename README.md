@@ -18,6 +18,7 @@
 #### Youtube
 - Youtube Cleaner | [raw](https://github.com/fynks/userscripts/raw/main/youtube/youtube-cleaner.user.js) | [src](https://github.com/fynks/userscripts/) |
 - Search While watching Video | [raw](https://raw.githubusercontent.com/fynks/userscripts/main/youtube/search_while-watching_video.user.js) | [src](https://github.com/fynks/userscripts/) |
+- Return Youtube Dislike | [raw](https://github.com/fynks/userscripts/raw/main/youtube/return-youtube-dislike.user.js) | [src](https://github.com/Anarios/return-youtube-dislike/raw/main/Extensions/UserScript/Return%20Youtube%20Dislike.user.js) |
 
 #### XDA
 - XDA Cleaner | [raw](https://github.com/fynks/userscripts/raw/main/xda/xda-cleaner.user.js) | [src](https://github.com/fynks/userscripts/) |
