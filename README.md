@@ -35,6 +35,9 @@
 #### Google
 - Google Sidebar | [raw](https://github.com/fynks/userscripts/raw/main/google/google-search-sidebar.user.js) | [src](https://github.com/jmlntw/google-search-sidebar) |
 
+#### Privacy Rediector
+- Google Sidebar | [raw](https://github.com/fynks/userscripts/raw/main/redirector/privacy-redirector.js) | [src](https://github.com/dybdeskarphet/privacy-redirector/blob/main/privacy-redirector.js) |
+
 ---
 
 [![Repo-name](https://img.shields.io/badge/Visit-configs-lightblue?style=for-the-badge&logo=github) ](https://github.com/fynks/configs)
