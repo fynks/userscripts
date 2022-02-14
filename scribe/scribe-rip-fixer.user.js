@@ -1,13 +1,16 @@
 // ==UserScript==
 // @name           scribe.rip Fixer
 // @author         Fynks
-// @version        1.1
+// @version        1.2
 // @description    Cleans and enhances scribe.rip
 // @icon           https://icons.duckduckgo.com/ip2/scribe.rip.ico
 // @downloadURL    https://raw.githubusercontent.com/fynks/userscripts/main/scribe/scribe-rip-fixer.user.js
 // @updateURL      https://raw.githubusercontent.com/fynks/userscripts/main/scribe/scribe-rip-fixer.user.js
 // @namespace      https://github.com/fynks/userscripts/
 // @match          https://scribe.rip/*
+// @match          https://scribe.bus-hit.me/*
+// @match          https://scribe.nixnet.services/*
+// @match          https://scribe.citizen4.eu/*
 // @grant          none
 // ==/UserScript==
 
