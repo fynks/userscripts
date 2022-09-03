@@ -12,9 +12,18 @@
 - Scribe.rip Fixer | [raw](https://raw.githubusercontent.com/fynks/userscripts/main/scribe/scribe-rip-fixer.user.js) | [src](https://github.com/fynks/userscripts/blob/main/scribe/scribe-rip-fixer.user.js) |
 
 #### Github
-- Github Menu | [raw](https://github.com/fynks/userscripts/raw/main/github/github-menu.user.js) | [src](https://github.com/HaleShaw/TM-GitHubMenu) |
+- Github Menu | [raw](https://github.com/fynks/userscripts/raw/main/github/direct_file_for_google_classroom.user.js) | [src](https://github.com/HaleShaw/TM-GitHubMenu) |
 - Github Theme Switcher | [raw](https://github.com/fynks/userscripts/raw/main/github/github-theme-switch.user.js) | [src](https://github.com/kidonng/cherry) |
 
+#### Google Classroom
+- Direct File Downloder by pressing ```ctrl``` | [raw](https://github.com/fynks/userscripts/raw/main/classroom/direct_file_for_google_classroom.user.js) | [src](https://github.com/fynks/userscripts/) |
+- Dark Mode | [raw](https://github.com/fynks/userscripts/raw/main/clasroom/google_classroom_dark_mode_theme.user.js) | [src](https://greasyfork.org/en/scripts/431522-google-classroom-dark-mode-theme) |
+- Productivity Booster | [raw](https://github.com/fynks/userscripts/raw/main/classroom/google_classroom_productivity_boost.user.js) | [src](https://github.com/fynks/userscripts/) |
+
+#### Whatsapp
+- Show/Hide contacts | [raw](https://github.com/fynks/userscripts/raw/main/whatsapp/whatsapp_toggle_contacts.user.js) | [src](https://greasyfork.org/en/scripts/416333-whatsapp-toggle-hide-show-contacts-by-n-s/) |
+- Blur toggle | [raw](https://github.com/fynks/userscripts/raw/main/whatsapp/whatsapp_web_anti_spy.user.js) | [src](https://greasyfork.org/en/scripts/444213-whatsapp-web-anti-spy/code) |
+  
 #### Youtube
 - Youtube Cleaner | [raw](https://github.com/fynks/userscripts/raw/main/youtube/youtube-cleaner.user.js) | [src](https://github.com/fynks/userscripts/) |
 - Search While watching Video | [raw](https://raw.githubusercontent.com/fynks/userscripts/main/youtube/search_while-watching_video.user.js) | [src](https://github.com/fynks/userscripts/) |
