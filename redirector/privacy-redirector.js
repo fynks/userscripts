@@ -1,12 +1,11 @@
 // ==UserScript==
 // @name Privacy Redirector
 // @description	Redirect social media platforms to their privacy respecting frontends
-// @namespace https://github.com/dybdeskarphet/privacy-redirector
-// @author Ahmet Arda Kavakcı
-// @license GPLv3
+// @namespace https://github.com/fynks/fynks
+// @author Fynks
 // @version 1.0.0
-// @downloadURL https://raw.githubusercontent.com/dybdeskarphet/privacy-redirector/main/privacy-redirector.js
-// @updateURL https://raw.githubusercontent.com/dybdeskarphet/privacy-redirector/main/privacy-redirector.js
+// @downloadURL https://raw.githubusercontent.com/fynks/userscripts/main/redirector/privacy-redirector.js
+// @updateURL https://raw.githubusercontent.com/fynks/userscripts/main/redirector/privacy-redirector.js
 // @run-at document-start
 // @match *://*.imdb.com/*
 // @match *://*.imgur.com/*
