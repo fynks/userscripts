@@ -1,29 +1,15 @@
 // ==UserScript==
-// @name         Google Classroom Dark Mode Theme
-// @version      1.0.3
-// @description  A smart toggle-able dark mode theme for Google Classroom.
-// @author       ThaCheeseBun + sudface
+// @name         Google Classroom Dark Mode
+// @version      0.0.5
+// @description  Dark mode for Google Classroom, is a modified version of https://greasyfork.org/scripts/395319-google-classroom-dark-mode-theme
+// @author       dfawx31
 // @match        *://classroom.google.com/*
+// @license      MIT
 // @grant        none
-// @license      MIT; https://mit-license.org/
+// @namespace http://tampermonkey.net/
+// @downloadURL https://update.greasyfork.org/scripts/487399/Google%20Classroom%20Dark%20Mode.user.js
+// @updateURL https://update.greasyfork.org/scripts/487399/Google%20Classroom%20Dark%20Mode.meta.js
 // ==/UserScript==
-
-// THE SCRIPT IS NO LONGER MAINTAINED ON GITHUB. 
-// The updated script, and future updates have moved to greasyfork at:
-// https://greasyfork.org/en/scripts/431522-google-classroom-dark-mode-theme
-
-// Requires Greasemonkey, Tampermonkey, or a similar JS-based userscript manager.
-// To install this, click the "Raw" or "View Raw" button.
-
-// Original Code by ThaCheeseBun:
-// https://greasyfork.org/en/scripts/395319-google-classroom-dark-mode-theme
-
-// Updated and made Smart by sudface:
-// https://gist.github.com/sudface/6e8240841221e7372b93ae1360090e3e
-
-// Note:
-// For your privacy and peace of mind, this script will _not_ auto-update
-// To check for updates, see the github link provided.
 
 (function() {
     'use strict';
@@ -32,6 +18,163 @@
 body {
     background: #2c2c2c;
     color: #fff;
+}
+
+.Tabkde .OX4Vcb {
+    background-color: #3c3c3c;
+}
+
+.rpo4wf-J3yWx {
+    color: #fff;
+}
+
+.z3vRcc-J3yWx {
+    color: #fff;
+}
+
+.xSP5ic:not([disabled]), .xSP5ic:not([disabled]).yHy1rc {
+    color: #fff;
+}
+
+.mwJvDe .KEDCCd {
+    color: #3c3c3c;
+}
+
+.ee1HBc .LgeCif.LgeCif:disabled {
+    color: #fff;
+}
+
+.z80M1 {
+    color: #fff;
+}
+
+.z80M1.FwR7Pc {
+    background-color: #4d4d4d;
+}
+
+.mwJvDe .KEDCCd {
+    background-color: #3c3c3c;
+}
+
+.xVPuB .Aworge, .vnnr5e .Aworge {
+    color: #fff;
+}
+
+.xVPuB .snByac, .vnnr5e .snByac {
+    color: #fff;
+}
+
+.xWw7yd:hover .asQXV {
+    color: black;
+}
+
+.xWw7yd:hover .IMvYId {
+    color: #444;
+}
+
+.gb_Pa svg, .gb_Tc svg, .gb_fd .gb_od, .gb_5c .gb_od {
+    color: #fff;
+}
+
+.ReCbLb:not(.VfPpkd-O1htCb-OWXEXe-OWB6Me).VfPpkd-O1htCb-OWXEXe-XpnDCe .VfPpkd-t08AT-Bz112c {
+    color: #fff;
+}
+
+.ReCbLb:not(.VfPpkd-O1htCb-OWXEXe-OWB6Me) .VfPpkd-uusGie-fmcmS {
+    color: #fff;
+}
+
+.VfPpkd-xl07Ob .VfPpkd-StrnGf-rymPhb, .VfPpkd-xl07Ob .VfPpkd-rymPhb {
+    background-color: #3c3c3c;
+}
+
+.s8kOBc .VfPpkd-rymPhb-fpDzbe-fmcmS {
+    color: #fff;
+}
+
+.s8kOBc .VfPpkd-rymPhb-ibnC6b-OWXEXe-gk6SMd .VfPpkd-rymPhb-fpDzbe-fmcmS, .s8kOBc .VfPpkd-rymPhb-ibnC6b-OWXEXe-pXU01b .VfPpkd-rymPhb-fpDzbe-fmcmS, .s8kOBc .VfPpkd-rymPhb-ibnC6b-OWXEXe-gk6SMd.VfPpkd-rymPhb-ibnC6b-OWXEXe-SfQLQb-M1Soyc-Bz112c .VfPpkd-rymPhb-KkROqb, .s8kOBc .VfPpkd-rymPhb-ibnC6b-OWXEXe-pXU01b.VfPpkd-rymPhb-ibnC6b-OWXEXe-SfQLQb-M1Soyc-Bz112c .VfPpkd-rymPhb-KkROqb {
+    color: #fff;
+}
+
+.s8kOBc .VfPpkd-rymPhb-ibnC6b.VfPpkd-rymPhb-ibnC6b-OWXEXe-gk6SMd {
+    background-color: #4d4d4d;
+}
+
+.ReCbLb:not(.VfPpkd-O1htCb-OWXEXe-OWB6Me) .VfPpkd-uusGie-fmcmS {
+    color: #fff;
+}
+
+.ReCbLb:not(.VfPpkd-O1htCb-OWXEXe-OWB6Me).VfPpkd-O1htCb-OWXEXe-XpnDCe .VfPpkd-t08AT-Bz112c {
+    color: #fff;
+}
+
+.ReCbLb:not(.VfPpkd-O1htCb-OWXEXe-OWB6Me):not(.VfPpkd-O1htCb-OWXEXe-XpnDCe) .VfPpkd-TkwUic:hover .VfPpkd-NSFCdd-i5vt6e .VfPpkd-NSFCdd-Brv4Fb, .ReCbLb:not(.VfPpkd-O1htCb-OWXEXe-OWB6Me):not(.VfPpkd-O1htCb-OWXEXe-XpnDCe) .VfPpkd-TkwUic:hover .VfPpkd-NSFCdd-i5vt6e .VfPpkd-NSFCdd-Ra9xwd, .ReCbLb:not(.VfPpkd-O1htCb-OWXEXe-OWB6Me):not(.VfPpkd-O1htCb-OWXEXe-XpnDCe) .VfPpkd-TkwUic:hover .VfPpkd-NSFCdd-i5vt6e .VfPpkd-NSFCdd-MpmGFe {
+    border-color: rgb(26,115,232);
+}
+
+.EHzcec {
+    background: var(--gm3-sys-color-surface-container-high,#3c3c3c);
+}
+
+.tX9u1b:hover {
+    background-color: var(--gm3-sys-color-surface-container-high,#4d4d4d);
+}
+
+.Rq5Gcb {
+    color: #fff;
+}
+
+.NQV3m:active, .NQV3m:active:focus {
+    border-color: var(--gm3-sys-color-outline,#5e5e5e);
+}
+
+.NQV3m:active, .NQV3m:active:focus {
+    background-color: #5e5e5e;
+    color: #c3c3c3;
+}
+
+.gb_d[aria-expanded="true"] .gb_h {
+    fill: #fff;
+}
+
+.Eajscb .vT1Gyc.N4XV7d {
+    color: #fff;
+}
+
+.UvHKof .FL3Khc:not(:disabled) {
+    color: #fff;
+}
+
+.UvHKof .n42Gr:not(:disabled):hover, .UvHKof .n42Gr:not(:disabled) {
+    color: #fff;
+}
+
+.jDlKLb {
+    color: #fff;
+}
+
+.A6dC2c-J3yWx, .Hwv4mb .OGhwGf:focus .Pce5Kb, .Hwv4mb .OGhwGf:hover .Pce5Kb {
+    color: #fff;
+}
+
+.UvHKof .FL3Khc:not(:disabled):hover {
+    color: rgb(255, 111, 111);
+}
+
+.Erb9le:not(.RDPZE) .qmMNRc:hover, .Erb9le:not(.RDPZE) .qmMNRc.y7OZL {
+    color: rgba(255, 255, 255, 0.59);
+}
+
+.Erb9le:not(.RDPZE) .qmMNRc.y7OZL {
+    background-color: #ffffff36;
+}
+
+.ee1HBc .Iwp0Ue:not(.xp2dJ):not(.rZXyy):hover.rXdid, .ee1HBc .Iwp0Ue:not(.xp2dJ):not(.rZXyy):hover.h7Ww0, .ee1HBc .Iwp0Ue:not(.xp2dJ):not(.rZXyy):hover .rXdid, .ee1HBc .Iwp0Ue:not(.xp2dJ):not(.rZXyy):hover .h7Ww0, .ee1HBc .xWw7yd:hover.rXdid, .ee1HBc .xWw7yd:hover.h7Ww0, .ee1HBc .xWw7yd:hover .rXdid, .ee1HBc .xWw7yd:hover .h7Ww0 {
+    background-color: #000;
+}
+
+.ee1HBc .Iwp0Ue:not(.xp2dJ):focus-within.JiTjnd, .ee1HBc .Iwp0Ue:not(.xp2dJ):focus-within.h7Ww0, .ee1HBc .Iwp0Ue:not(.xp2dJ) :focus-within.JiTjnd, .ee1HBc .Iwp0Ue:not(.xp2dJ) :focus-within.h7Ww0, .ee1HBc .xWw7yd:focus-within.JiTjnd, .ee1HBc .xWw7yd:focus-within.h7Ww0, .ee1HBc .xWw7yd :focus-within.JiTjnd, .ee1HBc .xWw7yd :focus-within.h7Ww0 {
+    background-color: #000;
 }
 
 /* help btn */
@@ -204,7 +347,7 @@ a:visited {
     border-color: #4c4c4c !important;
 }
 .Y5sE8d:not(.RDPZE) {
-    background-color: hsl(123deg 46% 44%) !important;
+    background-color: #2c2c2c !important;
 }
 .Y5sE8d:not(.RDPZE):hover {
     box-shadow: none !important;
@@ -217,26 +360,6 @@ a:visited {
 }
 .uQ3ESd {
     background-color: #3c3c3c !important;
-}
-
-.apFsO.onkcGd, .apFsO.onkcGd:visited {
-    color: white !important;
-}
-
-.oBSRLe {
-    color: white !important;
-}
-
-.OjOEXb {
-    filter: blur(1px) brightness(0.8);
-}
-
-.PFLqgc {
-    filter: blur(1px) brightness(0.8);
-}
-
-.vzcr8 {
-    color: hsl(123deg 46% 59%);
 }
 
 /* dialog */
@@ -260,37 +383,7 @@ a:visited {
 .I7OXgf.ZEeHrd, .NZ9wdc, .i5sehe, .kox42c {
     background-color: #2c2c2c !important;
 }`;
-    var now = new Date();
-    var splitD = new Date();
-    splitD.setHours(18,0,0);
-    if (now > splitD) {
-        var darktime = true;
-    } else {
-        var darktime = false;
-    }
-
-    var darkelem = document.createElement('style');
-    darkelem.innerText = style;
-    darkelem.id = "darkcss"
-    if (darktime) {document.head.appendChild(darkelem);}
-
-    function toggledarkmode(){
-        var dbutton = document.getElementById("darktoggle");
-        if (dbutton.innerText == "🌙") {
-            dbutton.innerText = "🌞"; // &#127774;
-            document.head.appendChild(darkelem);
-        } else {
-            dbutton.innerText = "🌙";
-            document.getElementById("darkcss").remove();
-        }
-    }
-
-    var darktoggle = document.createElement('div');
-    if (darktime) {darktoggle.innerText = "🌞";} else {darktoggle.innerText = "🌙";}
-    darktoggle.id = "darktoggle";
-    darktoggle.style = "width: 48px; cursor: pointer; font-size: large;";
-    document.getElementsByClassName("Mtd4hb QRiHXd")[0].prepend(darktoggle);
-    document.getElementById("darktoggle").addEventListener("click", toggledarkmode);
-
-
+    var elem = document.createElement('style');
+    elem.innerText = style;
+    document.head.appendChild(elem);
 })();
