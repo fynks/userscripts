@@ -1,13 +1,14 @@
 // ==UserScript==
 // @name             IMDb Mod
 // @description      Adds torrent search and Youtube trailer buttons to IMDb movie pages
-// @namespace        Fynks
-// @version          1.0.0
+// @author           Fynks
+// @version          1.0.1
 // @grant            none
 // @license          MIT
+// @namespace        https://github.com/fynks/userscripts
 // @match            https://www.imdb.com/*
 // @icon             https://www.imdb.com/favicon.ico
-// @updateURL        https://raw.githubusercontent.com/Fynks/userscripts/main/imdb-mod.user.js
+// @updateURL        https://github.com/fynks/userscripts/raw/refs/heads/main/imdb/imdb-mod.user.js
 
 // ==/UserScript==
 
