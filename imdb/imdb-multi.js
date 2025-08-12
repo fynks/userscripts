@@ -29,7 +29,7 @@
   const DESCRIPTION = description;
   const HOMEPAGE = homepage;
   const NAME_VERSION = `Link 'em all! v${version}`;
-  const SITES_URL = 'https://raw.githubusercontent.com/fynks/userscripts/master/sites.json'; // gets replaced by rollup!
+  const SITES_URL = 'https://raw.githubusercontent.com/fynks/userscripts/refs/heads/main/imdb/imdb-multi.json'; // gets replaced by rollup!
   const GM_CONFIG_KEY = 'config';
   const GREASYFORK_URL = 'https://greasyfork.org/scripts/17154-imdb-link-em-all';
   const DEFAULT_CONFIG = {
