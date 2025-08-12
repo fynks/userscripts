@@ -1,0 +1,110 @@
+[
+  {
+    "id": "yt",
+    "title": "YouTube",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAq0lEQVQ4y2NgGB7gmaK4GhDvAeL7QPwOiL8C8X80/BUqB1KzG4iVkA3YhEUDIbwW2YBnZBhwD9mA7+gKfl268P9DRdH/59pKuAx4h2wAhgIY+Pf50/+vS+b/f2lniq7mL1EG/Lp25f/7vIz/z1Sk8BrwDd2An6dP/H+bGPX/mZIELi+8pWogbiTDgNXIBigD8RYgvgPEb4D4ExYNH4H4NRDfBeJtQKw4TPIRADVAMY00MJoyAAAAAElFTkSuQmCC",
+    "url": "https://www.youtube.com/results?search_query={{IMDB_TITLE}}%20trailer",
+    "category": "search"
+  },
+  {
+    "id": "cinemaoftheworld",
+    "title": "Cinema of the World",
+    "url": "http://worldscinema.org/?s={{IMDB_ID}}",
+    "noResultsMatcher": "Nothing Found",
+    "category": "filehoster"
+  },
+  {
+    "id": "movieparadise",
+    "title": "MovieParadise.org",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABdElEQVQ4y33TyytEYRjH8eO6UdSMu2IxU4wFG7GUWymJUra2yl9hMyzcS9SUMllYoFhYsHDZUMTKpSxMCRtyFzZ8n+k3dZxm5tSn5rzP87znvTzjOJ5nKBqrxzQu8I0fXGEODU6qh2AxpvDrKtoQ+/2l2DxKvcUlWFXCHtqTfKAVO8qxScsTgSyMK7ACf5pV+rGu3Ank2mCdBmzP1UrMSFKch34M4FQ19Y4OzF7G0nzZVjmCa7RgWDWjFrzEEzrSTDCogld0oQ2POHZ04vcIpCiuwZsmOEHItooY3t0TBFVQiCga9b6r4n1UaqxWE7zYyzmetawADlRg19qn32fwuVbViQccOa7mmXR1YuKUb+0rqPJsK6x4OLFH7zXafR9qvMdTHLTDUyxkA5muq1yzllZiWfya/hf7EEmsON5IChRgS4FtNKu9s5FvvY8mLCvHcouS/Zkiriuzvp/FDDbxiQ8soCJdx3VjETeayNxhCb3Icdf8AfErxDzVutz8AAAAAElFTkSuQmCC",
+    "url": "http://movieparadise.org/?s=tt{{IMDB_ID}}",
+    "noResultsMatcher": "No results to show with",
+    "category": "filehoster"
+  },
+  {
+    "id": "pb",
+    "title": "The Pirate Bay",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAMFBMVEUBBAAbHBonKSc+QD1QUk9cXltvcW6ChIGPkY6ho6CusK2+wL3P0c7a3Nnr7er9//yio7pYAAAAeUlEQVQI12P4DwUM/68YA4ElkLGAAQhYwAxGBgZWEEMn6upyMMMuUOk4SGoCSA0zmCHAxMD0n+FYA7MjqwFQZEPFrJUzV61rZSgwjjj///V0YYZtlomMhsLBSgz/GE0iSpQToxn+ib3///91wHmG//tAdl+5zwBzBgA4/kVfY3CNqAAAAABJRU5ErkJggg==",
+    "url": "https://thepiratebay.org/search/{{IMDB_TITLE}}%20{{IMDB_YEAR}}/0/99/200",
+    "category": "pub_tracker"
+  },
+  {
+    "id": "1337x",
+    "title": "1337x",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB20lEQVQ4y2NgGDTgSYRG8Ks0ywsv063PP0+3vvIoSqcYJvcoWs/xVaHHiVclPhdelfndeBar34JhwAN/OaUnUTqXnyeb/X+WYvH/aYLxvcehqtL3g1WYnqVYrn5d7PX/danv/1eF7n8fhqgGYHXF/QB5jxfxhj9eAA15kWr5/3GEZu6DUDW7FzlO318VeYINeJpi3vAwTJ0JqwGPAuQZn0ZoLnuWYPz/aZIpyBWPniaZXXyR6/z/VbH3/2fZjlceRmhK4g2LhwFyuk+idd8+ARryIs36//NM+/8vC9z/A13x+4G/bCJRAfowWLnjebL5/xfpNv9f5jr9B4XLAzfhIzcsmFkIar7vLcUEdMHS56CAjDX4/yRA7v9DR+7/92xYb9y0ZBElbICHqOujALmfDz1E/j9w4Pr/wJb9/yMnHrAhQH4jXs13bTnYHzpy7bxvx/7/ARDfs2M/f8+OYytIM9SAR7dt2JRxGnDHhi0IqOgvyOb79pz/b1uzxt6xZjW8Z8/55QGQ/wBoCNCAzlvWrMwYmm9aMqvcsWW/DtMMtPn6LSsWUaAGpju2HGtB4kCx/3ftOP4BDfbHavt9B67zQM0gfAXIL0B4jd0HqPkMkD4P9Mp1oKH1gycTAgCB9OyFFDyI8gAAAABJRU5ErkJggg==",
+    "url": "https://1337x.to/search/{{IMDB_TITLE}}+{{IMDB_YEAR}}/1/",
+    "noResultsMatcher": "No results were returned.",
+    "category": "pub_tracker"
+  },
+  {
+    "id": "yts",
+    "title": "YTS",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAMFBMVEUgHiEbICIeIB0dKh8bMxwaQRwWUxgTYBYRbRINdA8Chw4BmgkJpgAAtgAAvwAAygD2IFtIAAAAm0lEQVQI1wGQAG//ACAEMQIiASIiACBlIRAhABACABaAEREAIhEQADoxIqtxi6IiAHkiELy03WEBALcCEG7d2SAQANYQIi3uwgEiANYgEivuQAIQANchACr7IgACAMoiICz3ECEBAJ1AIh/UIgIDAD2wIl+yABA2ABfaEDVBACSkAAGetQEiIntgAAIX38qZrMYgACACKM7ttxASm8omLNhBbCUAAAAASUVORK5CYII=",
+    "url": "https://yts.mx/browse-movies/tt{{IMDB_ID}}",
+    "noResultsMatcher": "<b>0</b>",
+    "category": "pub_tracker"
+  },
+  {
+    "id": "watchsomuch",
+    "title": "WatchSoMuch",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC2klEQVQ4jY2TXUhTARTH7158EV+EEH0RJXtQhGbqcLebpqQY6mZTmwiaH/MjQ+8Slsyvq3C3Od2mNucUvyY25tUMCpKJaJhojYURpkKJPYjswVgIlg7y34NM/JjQD87T4fwP53/OITiO8SNJMoC4AACey9Xh73J1+F/MnSMnI70wTyw25GSkF3Ic43cS1sQfzm7T4UaN/XCjxu5ea2s92tJEA+CdbQCAR2SlJjNZKUmuxPgYrcvV4a9RqdhGpXJP1dYM51wnFl4b0N3Rgolx0/b72YFsjmP8RKLiSHFmpoSiKJIAwHtWllI92kI95zhrol6n+ymnachpGuZeE+Q0jfIyGQw6Pd5MWNYHjMyNxPgYrSA2bjchlj9IEARBHCxJQzyracNOe/ukdWwUGrUaGrUaBp0ecppGg6IO5l4TzL0mlBdJqvPSoowJsfxBIZ8fejqPZzVt2O3I9TjnOvH25QjG+1j0saXoM6hh7jXBOjYKW3cF7No4m10bZ2NZZfA5M3c+VlVuLcrgduR6Zs25eGdMhrP/Fj7bxJgfq8KKRYxNWxLmdaT7g/FOyaVt7G9ohLPTjGdrUYbGsnhIbkdAcjsCFdlRmFTHYucVH4MqCUbbC9YOlqQhPgW+Ldf/mnrRitlpxmPrrkBPwwOMtKdi2XoPw/p89LGl+DKVP3R2naccbWmif69X7XUZ1ahWjYDWWlDZZkKRsgv5texxk+IRNm1J2J55WO/zoL4v6K9vLNTtGIYGQGstoLUWVKtGIFX0QKroQSf7BCsWMeYtssvzEwRBsKwymDEMf/IWljSfdPcKFMpZyJ4ybkWr7u5VV000tveLK5S6r/m17LE3JFVtEJU2HueWN+0WPG6u4zjG70oBADyWVQbfl5TLbwrT96P41N/o+NQ/wuQ8jUhUHOnTPF8kUZQ0LCzcERh4bSYsLNxBURT5X4VeBAJBkEAgCCJJMkDI54f6encv/wAZNJAUcgy6PQAAAABJRU5ErkJggg==",
+    "url": "https://watchsomuchproxy.com/Movie/{{IMDB_ID}}/{{IMDB_TITLE}}-{{IMDB_YEAR}}",
+    "category": "pub_tracker"
+  },
+  {
+    "id": "torrentdownloads",
+    "title": "Torrent Downloads",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAYFBMVEUAMF0LNmMIP2wbSXcpU4IqXow8ZpAAf8MRhckAis4okM4lmd40l9YtoN48nNxDoeE2peRKpudMq+RaquZVsuxjsu5muO1tu/d2v+9ywPx8xvaKzPeW0vil1/+u2/2x3/88iP8IAAAAZUlEQVQY02WPOwqFAAwER8kDSxE/eP/TqWAtKLsW+pTgkmaHISTFSE6oSn0r+RhOXYGZABheo2diwLchA8YL0IFK+Z/Ws62wAKNrcCgDfQECmgdw7QDMSi1cVL906f4Ydxwc+bkTQKZNE4WywAAAAAAASUVORK5CYII=",
+    "url": "https://www.torrentdownloads.me/search/?search={{IMDB_TITLE}}+{{IMDB_YEAR}}",
+    "noResultsMatcher": "total <span class=\"num\">0</span> torrents found",
+    "category": "pub_tracker"
+  },
+  {
+    "id": "limetorrents",
+    "title": "LimeTorrents.info",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAByFBMVEUAAAA5tyEtshlZxU245a7Q7sHY8M/T7sXM7L7B6K6655bW7tE2zD2u46nB6Kiu4aY3zTuz4oSS1os+zzp0yVR30GtAwy1vzGA9uCNWwEkzrR4hixcpohtDriAhfxEWeA8AAAAAAAAAAAAAAAApjxckfxEWdQ4AAAAAAAAAAAAAAAAIJgUmiRUgfBAWdQ4AAAAAAAAAAAAAAAAAAAADEAIVXwwddw8fexAfeg8abw4TXAsTcQ0AAAAAAAAAAAAAAAAAAAAAAwAABgAAAAAAAAAAAADU7czr9sX6/MDx+Mj2+8Pw+Mvt+LS147O64bza77f0+Zff8W6Vz4CSzZjF5nDx+GR60nCUz511xE6y3ijX7TWY0i6Jy0yU0D7P6ia94yhezjRhw1pNtEmJzizj8gTv9wPL6EHz+QXK5y/L6BiDzxdpzS1z0jFoyVN1yVl6yiCJzxR9yE55xxxtwxlHsT1iwFNbwCZ70S1+0y5oyy9yzFdoxV5QuE5WuF9FslBXvFtWtkpowSd1ySp5zSt7zyx2zCtlwypWuCdJqiE6lRlKqh9dsyJjtyRktyRhtSNarSFMoBw5jxY7mRlEnBpFmxpCmBk5kBYthhMUXplsAAAARnRSTlMACQQhoun8+dufSgIS5tRAZvxsmfw+qaecpXFiJ/3sDQILFyO//lwMGSc3Web5bAMRJjpNedz6/f73yCoOIDtffIp8URYBgBh7bgAAAAd0SU1FB+QHBRYaBGsUPhYAAAB8SURBVBhXY2RAA4y4BBgZ/yEJMDNCwVeIAA+jJYR/iPEjWEDAFqZiD+M7kICwM0yAcSsjSEDMCy7AuBYkIBGMEFgCEpCKQQjMBgnIMKbA+FMZGRVAdBqUP4XxFqM6mAURmcZ4iYFRHyoJBkfBLtXnhfH3wPwCBK63H0AYAJMkE5AqT9tgAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIwLTA3LTA1VDIyOjI1OjQ5KzAwOjAwEl545QAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMC0wNy0wNVQyMjoyNTo0OSswMDowMGMDwFkAAAAASUVORK5CYII=",
+    "url": "https://www.limetorrents.info/search/movies/{{IMDB_TITLE}}/",
+    "noResultsMatcher": ["EL_COUNT", "table.table2 tr", "GT", 1],
+    "category": "pub_tracker"
+  },
+  {
+    "id": "ddlwarez",
+    "title": "DDL-Warez",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACxFBMVEX///+bpah8jpGDk5h1ipBrhoxog4tsho50i5OFmJuQnqKMmp56jZJuiY9yhotpg4mVoaSDlJd4io9lgYeUoaVkfoSxt7lziI6Nmp1ifYZ8jZNdeIBGbHU+aXM+aXNDa3VXeYJ4kJVzkZiBoKeNrLOTsbmSsbiBoal3lZ12lZuPrrSkwsivztO11Nm4192519221dquztSiwslmg4qIpKujwcez0ti83eS64em44+vA5u685e285OvD5Om+3uSNqLCmx86x19614Omv4+un4eur4u2l4O2q4eyr4Oqu4eu85OyEoqqew8qn1N2s3+ew5O2j4uy+6vLl9/mk4evO7/TM6/GQ0+Gf2ORwj5aPtr6czdWn2+Wt4uuw5u+i4u296vPi9viQ2efF7PPE6PCBzduR0t55oKmOv8mi1d6p3+it5Oyx5++V3uqr5O/Z9PiG1+fA6/PC6O9+zduQ0d5bgYp7qbSVx9Gb1N+W1eKW2eWM2OZz0OOg4O3Y9fmD2Oe+6/O95+5vxdZ4xNNbiJKAsLqRx9KNzNei2OKZ1+OP1uON2ei36fLY9Pl91ue66fLJ7POL0N6JydZfjZmBsb2Hws6NytbW7/PW8PTW8fXX8vfc9fjL8PZ10eOu5O7c8/fU7vTT7PFej5p8r7qJws10ucdttcVxvc9zw9V0ydt0zN5xzN9lx9tqxdhvwdNuuMtrscJbjZl2rLd8t8RnqbqWydSd0d2c1OGd2OWd2eiQ1ONhvtF+ydia09+YzdmWyNRWiJRxp7RoprRdm6y319+/3+a+3+a84enQ6/HL6vBcs8em1uHW7fG63OO62N9Nfoxqoa5hoK5PkaJMkaNOmKtQnbBGm7CFwc7F5etTpbii0dqmz9hEkKRHjZ9DdIFflqVZlqZXmKhSlqhSmqtUn7BAkKV6tMDB4OZMlqidyNGgx9A9h5hMk6PvIwVdAAAAInRSTlMBBz2Dt9nt6c+naz2v8XXxBYt1/TvvCa8784W32e3nz6drWERCxgAAAAFiS0dEAIgFHUgAAAAHdElNRQflBgoJJAHjnt/qAAAAXElEQVQYV2NkAANGBADzuRkZRUGcf8wQAT5GKWQVAoxKCC5IQIhRB0VAhNEMmc8oxuiIwmeUYPRFFZCKQuUzSmegCciUoQnItqAJyE1CE5BfgCagsA5NQHEPKh8ABksI4I813igAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjEtMDYtMTBUMDk6MzQ6MzkrMDA6MDANRUzBAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIxLTA2LTEwVDA5OjM0OjM5KzAwOjAwfBj0fQAAAABJRU5ErkJggg==",
+    "url": "https://ddl-warez.cc/?s=tt{{IMDB_ID}}&cat=0",
+    "noResultsMatcher": "No search results",
+    "category": "filehoster"
+  },
+  {
+    "id": "bitsearch",
+    "title": "BitSearch",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACGUlEQVQ4y33Tz2vTcBgG8Kz+CSLCmP9CfjgPKsh06JSBYyjqCkKZ2ClqnbNDNmZ14MEhDNTLpJu4g8yDKExE5kUdqKcxFKUqCPbSNN/Qua7purRIH59ktqQh9YX3lLyfJN/3iST5KqJmt/Wr2fhZVX91XtO/XdD07zFNX7iiZa5d1TLbpWZ1UjFawqoxeFrNWkRwhh1VdRDBRfZlNpH1OKFhLdPSMNzL4eOK8YAIwhwkgmbIkJYBkVkioTrQo4gYERCBF3l6v4CfnyuYHFgJQkbc4SOK2NqtiMJRRcCLRDsEUIVbP5bKQZ9T4pm0SodkMXiYw0TgRU5pBlIcdCqn/0G0PfBMxqRO2XxxUBZwkJ52gYl4HrFjuU1ENXCu08T0eB6Lz0uI8a28CLfzRuqQza8HZBMOMjdddJ9ob1QxdWsNd0fz+Ph6A/17BJ5NWe61lzOWF/kl7ZPNFBE4yNzMuntTpVzFw0kLydsFLL+3EdlL/N4mMJ+0vNtJO8ACGw7StcvExNgaLvWt1M+kb7fAnaFVzD8qYmC/aFgxw/bOAUYcoIbUPqd7p8CXpYr7VJOHeEJrXLGDMLEJB2hll/xIuCuHWi1/KCMgJzaRNjcLHBytAV7kcbKI1KcKhiO/4c8JY5+oJ5FDIfZsEFJbsS8nT4iEGv6Hf8h1tv0fxCZyg8iWpn8lB3ewb7IX2WkiaYbtLRObYOzb/Pf/BcAPLnFvp7oYAAAAAElFTkSuQmCC",
+    "url": "https://bitsearch.to/search?q={{IMDB_TITLE}}",
+    "noResultsMatcher": "Found <b>0</b>",
+    "category": "pub_tracker"
+  },
+  {
+    "id": "os",
+    "title": "OpenSubtitles.org (en)",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAKlBMVEUAAAAREREiIiIzMzNERERVVVV3d3eIiIiZmZmqqqrMzMzd3d3u7u7///9SrzZ+AAAARElEQVQI12NggAHeC3fBCMHAAjjuTmA6ewfIyGCYxuUgDWRsYpDmdgBJHWSQYbm7GSzVzs7gDWRw3p3AdfYqNmNw2wUAUH0dtNO4HWIAAAAASUVORK5CYII=",
+    "url": "https://www.opensubtitles.org/en/search/sublanguageid-eng/imdbid-{{IMDB_ID}}",
+    "noResultsMatcher": "</div><br /><div class=\"footer upfooter\">",
+    "category": "subtitles"
+  },
+  {
+    "id": "os_all",
+    "title": "OpenSubtitles.org",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAKlBMVEUAAAAREREiIiIzMzNERERVVVV3d3eIiIiZmZmqqqrMzMzd3d3u7u7///9SrzZ+AAAARElEQVQI12NggAHeC3fBCMHAAjjuTmA6ewfIyGCYxuUgDWRsYpDmdgBJHWSQYbm7GSzVzs7gDWRw3p3AdfYqNmNw2wUAUH0dtNO4HWIAAAAASUVORK5CYII=",
+    "url": "https://www.opensubtitles.org/en/search/imdbid-{{IMDB_ID}}",
+    "noResultsMatcher": "</div><br /><div class=\"footer upfooter\">",
+    "category": "subtitles"
+  },
+  {
+    "id": "os_ro",
+    "title": "OpenSubtitles.org (ro)",
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAKlBMVEUAAAAREREiIiIzMzNERERVVVV3d3eIiIiZmZmqqqrMzMzd3d3u7u7///9SrzZ+AAAARElEQVQI12NggAHeC3fBCMHAAjjuTmA6ewfIyGCYxuUgDWRsYpDmdgBJHWSQYbm7GSzVzs7gDWRw3p3AdfYqNmNw2wUAUH0dtNO4HWIAAAAASUVORK5CYII=",
+    "url": "https://www.opensubtitles.org/en/search/sublanguageid-rum/imdbid-{{IMDB_ID}}",
+    "noResultsMatcher": "</div><br /><div class=\"footer upfooter\">",
+    "category": "subtitles"
+  }
+]
