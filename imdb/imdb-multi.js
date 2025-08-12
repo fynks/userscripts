@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        IMDb: Link 'em all!
 // @description Adds all kinds of links to IMDb, customizable!
-// @namespace   https://raw.githubusercontent.com/fynks/userscripts/refs/heads/main/imdb/imdb-multi.js
+// @namespace   https://greasyfork.org/en/users/8981-buzz
 // @match       *://*.imdb.com/*title/tt*
 // @connect     *
 // @require     https://greasemonkey.github.io/gm4-polyfill/gm4-polyfill.js
@@ -24,13 +24,14 @@
 
   var version = "2.0.15";
   var description = "Adds all kinds of links to IMDb, customizable!";
-  var homepage = "https://github.com/fynks/userscripts/tree/main/imdb";
+  var homepage = "https://github.com/buzz/imdb-link-em-all#readme";
 
   const DESCRIPTION = description;
   const HOMEPAGE = homepage;
   const NAME_VERSION = `Link 'em all! v${version}`;
   const SITES_URL = 'https://raw.githubusercontent.com/fynks/userscripts/refs/heads/main/imdb/imdb-multi.json'; // gets replaced by rollup!
   const GM_CONFIG_KEY = 'config';
+  const GREASYFORK_URL = 'https://greasyfork.org/scripts/17154-imdb-link-em-all';
   const DEFAULT_CONFIG = {
     enabled_sites: [],
     fetch_results: true,
