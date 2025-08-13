@@ -5,8 +5,8 @@
 // @match       *://*.imdb.com/*title/tt*
 // @connect     *
 // @require     https://greasemonkey.github.io/gm4-polyfill/gm4-polyfill.js
-// @require     https://unpkg.com/preact@10.25.2/dist/preact.umd.js
-// @require     https://unpkg.com/preact@10.25.2/hooks/dist/hooks.umd.js
+// @require     https://unpkg.com/preact@10.27.0/dist/preact.umd.js
+// @require     https://unpkg.com/preact@10.27.0/hooks/dist/hooks.umd.js
 // @license     GPLv2
 // @noframes
 // @author      buzz
