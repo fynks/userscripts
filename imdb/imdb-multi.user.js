@@ -42,11 +42,8 @@
     search: 'Search',
     movie_site: 'Movie Sites',
     pub_tracker: 'Public Trackers',
-    priv_tracker: 'Private Trackers',
-    streaming: 'Streaming',
     filehoster: 'File Hosts',
-    subtitles: 'Subtitles',
-    tv: 'TV'
+    subtitles: 'Subtitles'
   };
 
   const FETCH_STATE = {
