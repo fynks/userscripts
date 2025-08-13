@@ -114,5 +114,5 @@
     "url": "https://vegamovies.moi/?s={{IMDB_TITLE}}",
     "noResultsMatcher": "No results were returned.",
     "category": "movie_site"
-  },
+  }
 ]
